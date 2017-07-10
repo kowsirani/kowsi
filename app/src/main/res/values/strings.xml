@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Actiwit</string>
+    <string name="scan">Scan</string>
+    <string name="sd">Scanning your device...</string>
+    <string name="dd">Detected devices</string>
+    <string name="cd">Connect to devices</string>
+    <string name="name">Enter your name to complete the setup</string>
+    <string name="sc">Scarlet Cartan</string>
+    <string name="mob">the brain sensing mobile app</string>
+    <string name="max">0 : 40</string>
+
+</resources>
