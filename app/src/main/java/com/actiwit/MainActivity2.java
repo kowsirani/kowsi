@@ -1,15 +1,12 @@
 package com.actiwit;
 
 import android.content.Intent;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import static android.R.id.message;
 
 public class MainActivity2 extends AppCompatActivity {
      // Handler h1=new Handler();
@@ -18,6 +15,9 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scrn2);
+
+        Toast.makeText(MainActivity2.this,"Welcome",Toast.LENGTH_LONG).show();
+
 
         final Button bu1 = (Button) findViewById(R.id.b1);
         final TextView tv = (TextView) findViewById(R.id.t1);
@@ -31,6 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
                 startActivity(intent);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                Toast.makeText(MainActivity2.this,"Welcome",Toast.LENGTH_LONG).show();
             }
         });
     }
